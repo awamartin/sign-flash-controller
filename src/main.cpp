@@ -17,7 +17,7 @@ void setup()
   // pinMode(32, OUTPUT);
   // pinMode(35, OUTPUT);
 
-  ledcSetup(0, 5000, 8);
+  ledcSetup(0, 25000, 8);
   ledcAttachPin(32, 0);
 
   Serial.begin(115200);
